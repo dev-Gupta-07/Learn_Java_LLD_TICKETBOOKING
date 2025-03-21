@@ -1,0 +1,30 @@
+[
+  {
+    "user_id": 12345,
+    "name": "Dev Gupta",
+    "hashed_password":"systempaaddenge",
+    "tickets_booked": [
+      {
+        "source": "Lucknow",
+        "destination": "Delhi",
+        "dateOfTravel": "2023-12-08T18:30:00Z",
+        "train": {
+          "train_id": "lads",
+          "train_no": 123456,
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Lucknow": "13:50:00",
+            "Sitapur": "14:25:00",
+            "Delhi": "20:23:00"
+          }
+        }
+      }
+    ]
+  }
+
+]
